@@ -53,7 +53,7 @@
 
 %%% The "real" document content comes below...
 
-\title{AC290 EXTREME COMPUTING: REPORT 1}
+\title{AC290 EXTREME COMPUTING: REPORT 2}
 \subtitle{Bleeding Edge}
 \author{Gioia Dominedo, Christian Junge, Abhishek Malali and Isadora Nun}
 %\date{} % Activate to display a given date or no date (if empty),
@@ -82,28 +82,28 @@ Where $N$ is the number of simulations, $f$ is the Influence function, $I$ is th
 
 \section{What is Greedy algorithm?}
 
-The greedy algorithm runs a given number ($N$) of simulations, given a number of starting nodes.  In its first iteration, it finds the single node that has the highest expected value of activated nodes when run over $N$ simulations.  In each subsequent iteration, it finds the next node which, when added to the starting set, returns the highest expected value of activated nodes when run over $N$ simulations.  In this way, additional starting nodes are incrementally added to the set which was previously determined to be the best set until the set contains the desired number of starting nodes.  
+The greedy algorithm runs a given number ($N$) of simulations, given a number of starting nodes.  In its first iteration, it finds the single node that has the highest expected value of activated nodes when run over $N$ simulations.  In each subsequent iteration, it finds the next node which, when added to the starting set, returns the highest expected value of activated nodes when run over $N$ simulations.  In this way, additional starting nodes are incrementally added to the set which was previously determined to be the best set until the set contains the desired number of starting nodes.\\ 
 	
 The danger in this approach is that a set of n starting nodes may be the best n-element sized set of starting nodes, but the best set of nodes that is created by adding one more element to size-n set may not be the best size(n+1) set possible.  
 
 \begin{figure}[h!]
 \centering
-\includegraphics[width=10 cm]{Greedy}
+\includegraphics[width=15 cm]{greedy_min}
 %\label{fig_sim}
-\caption{Greedy algorithm}
+\caption{Plot of minimum and maximum activations for different number of runs}
 \label{fig:GA}
 \end{figure}
 
-As we can see in figure \ref{fig:GA}, the results for 100 runs of the greedy algorithm for the mini North Carolina graph ($N=1000$) are in a tight range between 45.77 and 47.17. We obtain a ratio $f_{min}/f_{max} = 0.97$. We believe that $N=1000$ is big enough to minimize the uncertainties on the results. 
+As we can see in figure \ref{fig:GA}, we observe that with an increase in the number of the runs, the maximum and minimum activations bounds become tighter and tighter. The minimum bound also increases as expected with the increase in the number of runs for the greedy algorithm.
 
 \section{What is Simulated Annealing?}
 
-Simulated Annealing is a process to stochastically find the optimal starting set of nodes.  This optimization process is used for discrete search spaces where an exhaustive search would take a prohibitively long time.  In the case of the Maximum Influence Problem, testing all possible combinations of nodes would take a very long time, so simulated annealing is a sensible approach.  For this problem, the goal is to find the set of starting nodes with the highest value of the influence function; in other words, the set of starting nodes with the highest expected number of activated nodes.  
+Simulated Annealing is a process to stochastically find the optimal starting set of nodes.  This optimization process is used for discrete search spaces where an exhaustive search would take a prohibitively long time.  In the case of the Maximum Influence Problem, testing all possible combinations of nodes would take a very long time, so simulated annealing is a sensible approach.  For this problem, the goal is to find the set of starting nodes with the highest value of the influence function; in other words, the set of starting nodes with the highest expected number of activated nodes.\\  
 
-The process works as follows: First, an initial set is selected and the expected value of activated nodes for a given number of simulations is calculated.  Then this starting set is perturbed (for example, by switching some of the starting nodes), and the expected value of this new set is calculated.  If this new set yields a higher expected value, then it is accepted, but if this new set yields a lower expected value, then it is accepted with a probability based on the temperature ($P(X=j)=\exp({\frac{-\Delta E}{T}})$).  This process runs over many iterations, yielding a set that returns the highest expected value of activated nodes.  
+The process works as follows: First, an initial set is selected and the expected value of activated nodes for a given number of simulations is calculated.  Then this starting set is perturbed (for example, by switching some of the starting nodes), and the expected value of this new set is calculated.  If this new set yields a higher expected value, then it is accepted, but if this new set yields a lower expected value, then it is accepted with a probability based on the temperature ($P(X=j)=\exp({\frac{-\Delta E}{T}})$).  This process runs over many iterations, yielding a set that returns the highest expected value of activated nodes. \\
 
 In the simulated annealing process as in the greedy algorithm, there remains the potential that the actual optimal solution is not found because the set is “stuck” with some nodes that yield good intermediate results when included in the set, but are not the best overall.  For this reason, the concept of “heat” is introduced into the annealing process.  This works as follows:  
-If the new starting set returns an expected value that is much higher (“higher” is relative, and can be calibrated in the algorithm), then the number of starting nodes that are switched in subsequent runs of the influence function is kept the same (or potentially increased).  This is referred to as “heat”, and determines how drastic of a change is made to the considered set of starting nodes at each step in the simulated annealing process. In contrast, if the expected value is not much higher, the algorithm “cools”, and fewer nodes are switched.  Periodically, the algorithm is “heated up” to stimulate it to make more drastic changes to ensure that it is not stuck in a relative maximum that is lower than the absolute maximum.  
+If the new starting set returns an expected value that is much higher (“higher” is relative, and can be calibrated in the algorithm), then the number of starting nodes that are switched in subsequent runs of the influence function is kept the same (or potentially increased).  This is referred to as “heat”, and determines how drastic of a change is made to the considered set of starting nodes at each step in the simulated annealing process. In contrast, if the expected value is not much higher, the algorithm “cools”, and fewer nodes are switched.  Periodically, the algorithm is “heated up” to stimulate it to make more drastic changes to ensure that it is not stuck in a relative maximum that is lower than the absolute maximum.  \\
 
 Over many iterations, the simulated annealing process should yield the set of points with the highest expected value of activated nodes. 
 
@@ -143,5 +143,24 @@ Uncertainty in the optimization results from stochastic approaches, which yield 
 \label{fig:SA}
 \end{figure}
 	 
+\section{Distributed Computing}
+One of the issues with scaling the problem from the 240 node mini graph of North Carolina to the full set of 24,244 nodes is that individual runs of the iterated cascade can run for many more iterations within a larger graph (particularly if the graph is well-connected), so each cascade may take much longer to complete.  For this reason, we cap our cascade steps at 10.  The value of this cap $d$ also affects the scalability of number of starting nodes, which is described below.  Because of this, a smaller value of d will make the independent cascade run faster since the whole tree is not explored thanks to the depth cap $d$. \\
+
+Scaling $d$ will have much less of an impact on a small graph than it will on a large graph because in a smaller graph, the independent cascade is more likely to terminate before completing d cascades.  On a large graph, however, the independent cascade may run for many steps if the number of cascades is not capped.  Furthermore, the distribution of the number of cascades that may run is likely to be right-tailed, so even if the independent cascades are parallelized, one particularly long cascade may take much longer than its neighbors to run, thereby mitigating some of the benefits of parallelizing the Influence function.\\
+
+Let $N$ be the umber of independent cascades run within calculations of the Influence function. Scaling $N$ should linearly increase the amount of computing time for the Influence function, because increasing the number of simulations does not increase the computing time of each.  As explained below, however, the Influence function lends itself well to parallelization, so increases in wall time can be minimized by parallelizing the Influence function.  As noted above, however, there are diminishing returns in the accuracy of the Influence function by scaling N, so some intermediate value of $N$ should give the optimal balance of low standard error and quick compute time.\\
+
+Scaling the number of starting nodes will have different impacts on the Simulated Annealing and Greedy Algorithms. In the Greedy algorithm, the first iteration considers the Influence of each of the $j$ nodes in the graph, and selects the node with the maximum influence.  The second iteration considers the Influence by adding each of $(j-1)$ remaining nodes, and so on to $(j-k)$.  For large graphs where $k$ (the number of starting nodes) is much smaller than $j$ (the total number of nodes in the graph), the difference between $j$ and $(j-k)$ is negligible, and so incrementing $k$ should lead to an essentially linear increase in computing time.  That is, adding another starting node should add an amount of computation that is not much less than the amount of computation for a single node.\\
+
+In the Simulated Annealing algorithm, however, changing the number of starting nodes will affect the independent cascade function time though there is no increase in the time we take to make node swaps for the next iteration or to run the simulated annealing itself. Hence the major bottle neck is the Independent cascade function for the Simulated annealing algorithm. 
+
+\section{Parallelization Strategies}
+\begin{enumerate}
+\item \textbf{Greedy Algorithm} - The Influence function lends itself very well to parallelization, because individual runs of the independent cascade are relatively fast and do not depend on one another.  Also, with a cap on the number of cascade steps, they should each take roughly the same amount of time.  Therefore, within both the Simulated Annealing algorithm and the Greedy algorithm, parallelizing the independent cascades within each run of the Influence function should lead to significant time improvements. To strategy to parallelize for the Greedy algorithm will be to split the graph nodes over the partitions and independently run them over different cores since one computation does not affect the other.
+
+\item \textbf{Simulated Annealing} - The algorithm is serial execution and the nodes on which the Simulated annealing operates in the $i^{th}$ iteration is a function of the $(i-1)^{th}$ iteration. Hence the parallelization cannot be carried out on the nodes like the greedy algorithm. Instead we can parallelize the independent cascade function by parallelizing the $N$ runs which the independent cascade runs. Since each of the runs is independent of a set of starting nodes, we can speed up Simulated annealing on the whole.
+\end{enumerate}
+
+
 
 \end{document}
