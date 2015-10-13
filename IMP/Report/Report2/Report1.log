@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 OCT 2015 22:52
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.12)  12 OCT 2015 22:32
+>>>>>>> ec7f62c2d71efd01b03291c55a736378122308cf
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -723,10 +727,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--159
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 160--164
 
  []
 
+<<<<<<< HEAD
 [5 <./LinearR.png> <./lambda01.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
@@ -734,11 +739,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 164--165
+=======
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+[5 <./lambda01.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+>>>>>>> ec7f62c2d71efd01b03291c55a736378122308cf
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
@@ -753,6 +772,7 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  5682 strings out of 493089
  91004 string characters out of 6134842
  223617 words of memory out of 5000000
@@ -774,6 +794,29 @@ ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/tex
 live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
 ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 Output written on Report1.pdf (7 pages, 711537 bytes).
+=======
+ 5348 strings out of 493673
+ 84662 string characters out of 3141517
+ 216497 words of memory out of 3000000
+ 8644 multiletter control sequences out of 15000+200000
+ 9388 words of font info for 33 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 50i,10n,54p,1386b,302s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Report1.pdf (6 pages, 816105 bytes).
+>>>>>>> ec7f62c2d71efd01b03291c55a736378122308cf
 PDF statistics:
  120 PDF objects out of 1000 (max. 8388607)
  78 compressed objects within 1 object stream
