@@ -121,13 +121,15 @@ Over very many iterations, the simulated annealing process should yield the set 
 
 \section{Uncertainties in the optimization}
 
-Uncertainty in the optimization results from stochastic approaches, which yield estimates with an unknown amount of error rather than definite values.  In particular, the influence function returns an expected value that has a certain amount of uncertainty.  While the standard error of the independent cascade function is endemic to a given set of starting nodes, regardless of the number of simulations, the standard error of the Influence function shrinks as the number of independent cascade simulations ($N$) increases.  Therefore, a larger number of simulations will yield a more accurate estimate of the average influence for a given set.  This tightening of the standard error is proportional to $\frac{\alpha}{N^{\lambda}}$. By fitting the data with a linear regression we obtain  $\frac{11.34}{N^{0.46}}$ for the mini-subset of the North Carolina graph.  So any optimization algorithm using the influence function will be impacted by its inherent uncertainty, which can only be reduced by increasing the number of simulations.  The tradeoff between this uncertainty and compute time must be made carefully so that results are sufficiently accurate, but do not take too long to compute.  \\
+Uncertainty in the optimization results from stochastic approaches, which yield estimates with an unknown amount of error rather than definite values.  In particular, the influence function returns an expected value that has a certain amount of uncertainty.  While the standard error of the independent cascade function is endemic to a given set of starting nodes, regardless of the number of simulations, the standard error of the Influence function shrinks as the number of independent cascade simulations ($N$) increases.  Therefore, a larger number of simulations will yield a more accurate estimate of the average influence for a given set.  This tightening of the standard error is proportional to $\frac{\alpha}{N^{\lambda}}$. By fitting the data with a linear regression we obtain  $\frac{13.49}{N^{0.49}}$ for the mini-subset of the North Carolina graph and $\frac{10775}{N^{0.55}}$ for the full North Carolina graph.  So any optimization algorithm using the influence function will be impacted by its inherent uncertainty, which can only be reduced by increasing the number of simulations.  The tradeoff between this uncertainty and compute time must be made carefully so that results are sufficiently accurate, but do not take too long to compute.  \\
 	
 \begin{figure}
 \centering
 \includegraphics[width=10 cm]{StandardErrorVsN}
+\includegraphics[width=10 cm]{StandardErrorVsNFull}
+
 %\label{fig_sim}
-\caption{Standard error versus N}
+\caption{Impact of N on uncertainty for greedy algorithm}
 \label{fig:StandardError}
 \end{figure}
 
@@ -135,7 +137,7 @@ Uncertainty in the optimization results from stochastic approaches, which yield 
 \centering
 \includegraphics[width=10 cm]{LinearR}
 %\label{fig_sim}
-\caption{Standard error versus N}
+\caption{Estimating impact of N on uncertainty}
 \label{fig:LR}
 \end{figure}
 

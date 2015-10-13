@@ -1,42 +1,45 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.12)  12 OCT 2015 22:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 OCT 2015 22:52
 entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
 **Report1.tex
-(Report1.tex
-LaTeX2e <2015/01/01> patch level 2
-Babel <3.9m> and hyphenation patterns for 69 languages loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrartcl.cls"
-Document Class: scrartcl 2015/10/03 v3.19a KOMA-Script document class (article)
+(./Report1.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2015/05/06 v3.17a KOMA-Script document class (article)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
-Package: scrkbase 2015/10/03 v3.19a KOMA-Script package (KOMA-Script-dependent 
+(/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2015/05/06 v3.17a KOMA-Script package (KOMA-Script-dependent 
 basics and keyval usage)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
-Package: scrbase 2015/10/03 v3.19a KOMA-Script package (KOMA-Script-independent
+(/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2015/05/06 v3.17a KOMA-Script package (KOMA-Script-independent
  basics and keyval usage)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
-Package: scrlfile 2015/10/03 v3.19a KOMA-Script package (loading files)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2015/05/06 v3.17a KOMA-Script package (loading files)
 
-Package scrlfile, 2015/10/03 v3.19a KOMA-Script package (loading files)
+Package scrlfile, 2015/05/06 v3.17a KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
-))) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty"
-Package: tocbasic 2015/10/03 v3.19a KOMA-Script package (handling toc-files)
+))) (/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2015/05/06 v3.17a KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `toc' on input line 123.
+(tocbasic)             for `toc' on input line 122.
 Package tocbasic Info: omitting babel extension for `lof'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lof' on input line 124.
+(tocbasic)             for `lof' on input line 123.
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lot' on input line 125.
+(tocbasic)             for `lot' on input line 124.
 Package scrartcl Info: You've used standard option `11pt'.
 (scrartcl)             This is correct!
 (scrartcl)             Internally I'm using `fontsize=11pt'.
@@ -44,16 +47,16 @@ Package scrartcl Info: You've used standard option `11pt'.
 (scrartcl)             you'd have to use `fontsize=11pt' there
 (scrartcl)             instead of `11pt', too.
 Class scrartcl Info: File `scrsize11pt.clo' used to setup font sizes on input l
-ine 2033.
+ine 1942.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrsize11pt.clo"
-File: scrsize11pt.clo 2015/10/03 v3.19a KOMA-Script font size class option (11p
+(/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2015/05/06 v3.17a KOMA-Script font size class option (11p
 t)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\typearea.sty"
-Package: typearea 2015/10/03 v3.19a KOMA-Script package (type area)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2015/05/06 v3.17a KOMA-Script package (type area)
 
-Package typearea, 2015/10/03 v3.19a KOMA-Script package (type area)
+Package typearea, 2015/05/06 v3.17a KOMA-Script package (type area)
                   Copyright (C) Frank Neukam, 1992-1994
                   Copyright (C) Markus Kohm, 1994-
 
@@ -79,7 +82,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 11.0pt
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 1509.
+(typearea)              on input line 1485.
 )
 \c@part=\count80
 \c@section=\count81
@@ -87,27 +90,27 @@ Package typearea Info: These are the values describing the layout:
 \c@subsubsection=\count83
 \c@paragraph=\count84
 \c@subparagraph=\count85
-LaTeX Info: Redefining \textsubscript on input line 3906.
+LaTeX Info: Redefining \textsubscript on input line 3718.
 \abovecaptionskip=\skip46
 \belowcaptionskip=\skip47
 \c@pti@nb@sid@b@x=\box26
 \c@figure=\count86
 \c@table=\count87
 \bibindent=\dimen102
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2015/06/27 v1.1n UTF-8 support for inputenc
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
@@ -256,8 +259,8 @@ File: t1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00B8 (decimal 184)
@@ -287,8 +290,8 @@ File: ot1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -311,18 +314,18 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -337,29 +340,28 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks17
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 94.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count91
@@ -367,10 +369,10 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen111
 \Gin@req@width=\dimen112
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen113
 \lightrulewidth=\dimen114
@@ -390,7 +392,7 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count95
 \@thisrulewidth=\dimen125
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/array.sty
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen126
 \extrarowheight=\dimen127
@@ -398,7 +400,7 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip48
 \backup@length=\skip49
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\paralist\paralist.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/paralist/paralist.sty
 Package: paralist 2013/06/09 v2.4 Extended list environments
 \pltopsep=\skip50
 \plpartopsep=\skip51
@@ -406,20 +408,20 @@ Package: paralist 2013/06/09 v2.4 Extended list environments
 \plparsep=\skip53
 \pl@lab=\toks19
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks20
 \verbatim@line=\toks21
 \verbatim@in@stream=\read1
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
-Package: caption 2015/09/17 v3.3-111 Customizing captions (AR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
-Package: caption3 2015/09/20 v1.7-115 caption3 kernel (AR)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen128
 \captionmargin@=\dimen129
@@ -454,7 +456,7 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              Nevertheless, using requested
 (scrartcl)              package `fancyhdr' on input line 38.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip59
 \f@ncyO@elh=\skip60
 \f@ncyO@erh=\skip61
@@ -465,18 +467,18 @@ Class scrartcl Warning: Usage of package `fancyhdr' together
 \f@ncyO@olf=\skip66
 \f@ncyO@orf=\skip67
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\sectsty\sectsty.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty"
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has section divisions on input line 50.
 
 
 Package tocbibind Note: Using section or other style headings.
 
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tocloft\tocloft.sty"
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 44.
 \cftparskip=\skip68
@@ -517,11 +519,13 @@ Package tocloft Info: The document has section divisions on input line 44.
 \cftsubtabindent=\skip103
 \cftsubtabnumwidth=\skip104
 )
-(Report1.aux
+(./Report1.aux
 
 LaTeX Warning: Label `fig:SA' multiply defined.
 
 )
+\openout1 = `Report1.aux'.
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
@@ -569,7 +573,7 @@ LaTeX Font Info:    ... okay on input line 64.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count104
 \scratchdimen=\dimen136
@@ -582,7 +586,50 @@ LaTeX Font Info:    ... okay on input line 64.
 \MPnumerator=\count108
 \makeMPintoPDFobject=\count109
 \everyMPtoPDFconversion=\toks23
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -596,19 +643,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 76.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 76.
- [1
+
+[1
 
 
-{C:/Users/Christian/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
-<greedy_min.png, id=11, 706.64pt x 342.27875pt>
+<greedy_min.png, id=12, 610.28pt x 338.26375pt>
 File: greedy_min.png Graphic file (type png)
  <use greedy_min.png>
 Package pdftex.def Info: greedy_min.png used on input line 96.
-(pdftex.def)             Requested size: 426.79134pt x 206.72673pt.
+(pdftex.def)             Requested size: 426.79134pt x 236.56621pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
@@ -629,7 +677,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
-<SimAn.png, id=17, 867.24pt x 578.16pt>
+<SimAn.png, id=18, 867.24pt x 578.16pt>
 File: SimAn.png Graphic file (type png)
  <use SimAn.png>
 Package pdftex.def Info: SimAn.png used on input line 116.
@@ -639,34 +687,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
-[3 <./SimAn.png>] <StandardErrorVsN.png, id=25, 395.4775pt x 282.05376pt>
+[3 <./SimAn.png>] <StandardErrorVsN.png, id=26, 395.4775pt x 282.05376pt>
 File: StandardErrorVsN.png Graphic file (type png)
 
 <use StandardErrorVsN.png>
 Package pdftex.def Info: StandardErrorVsN.png used on input line 128.
 (pdftex.def)             Requested size: 284.52756pt x 202.9279pt.
- <LinearR.png, id=26, 398.48875pt x 282.05376pt>
+
+<StandardErrorVsNFull.png, id=27, 398.48875pt x 282.05376pt>
+File: StandardErrorVsNFull.png Graphic file (type png)
+
+<use StandardErrorVsNFull.png>
+Package pdftex.def Info: StandardErrorVsNFull.png used on input line 129.
+(pdftex.def)             Requested size: 284.52756pt x 201.40005pt.
+ <LinearR.png, id=28, 389.455pt x 282.05376pt>
 File: LinearR.png Graphic file (type png)
 
 <use LinearR.png>
-Package pdftex.def Info: LinearR.png used on input line 136.
-(pdftex.def)             Requested size: 284.52756pt x 201.40005pt.
+Package pdftex.def Info: LinearR.png used on input line 138.
+(pdftex.def)             Requested size: 284.52756pt x 206.06967pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
-[4 <./StandardErrorVsN.png> <./LinearR.png>]
-<lambda01.pdf, id=34, 720.29881pt x 493.96419pt>
+[4 <./StandardErrorVsN.png> <./StandardErrorVsNFull.png>]
+<lambda01.pdf, id=36, 720.29881pt x 493.96419pt>
 File: lambda01.pdf Graphic file (type pdf)
  <use lambda01.pdf>
-Package pdftex.def Info: lambda01.pdf used on input line 148.
+Package pdftex.def Info: lambda01.pdf used on input line 150.
 (pdftex.def)             Requested size: 284.52756pt x 195.12502pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
@@ -677,12 +727,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
-
+[5 <./LinearR.png> <./lambda01.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
 
-[5 <./lambda01.pdf>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
@@ -692,35 +742,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--167
 
  []
 
-[6] (Report1.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+
+ []
+
+[6] [7] (./Report1.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5348 strings out of 493673
- 84662 string characters out of 3141517
- 216497 words of memory out of 3000000
- 8644 multiletter control sequences out of 15000+200000
- 9388 words of font info for 33 fonts, out of 3000000 for 9000
- 1025 hyphenation exceptions out of 8191
- 50i,11n,54p,1386b,302s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Report1.pdf (6 pages, 815751 bytes).
+ 5682 strings out of 493089
+ 91004 string characters out of 6134842
+ 223617 words of memory out of 5000000
+ 9088 multiletter control sequences out of 15000+600000
+ 9388 words of font info for 33 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 50i,10n,54p,1386b,300s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Report1.pdf (7 pages, 711537 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
+ 120 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
