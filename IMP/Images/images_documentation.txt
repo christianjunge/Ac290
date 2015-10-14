@@ -1,0 +1,24 @@
+NC_mini
+
+- SA_mini_w_T2_it500:
+
+#T = 2.0, cool = 0.9, reannel = 100, iterr = 500, N=800, t=10
+
+[u'Q9xJQu-9oCFZozVBjZDETw' u'ts7EG6Zv2zdMDg29nyqGfA'
+ u'VhI6xyylcAxi0wOy2HOX3w']
+
+- SA_mini_w_T1_it500:
+
+#T = 1.0, cool = 0.9, reannel = 100, iterr = 500, N=800, t=10
+
+[u'PpkKVodWC0sdn74TbHQLzA' u'1K50PvXa6l5PBXZXhzkB-g'
+ u'PpkKVodWC0sdn74TbHQLzA']
+
+
+- SA_full_w_T1_it1600:
+
+ #T=1.0, N=100, iterr=1600, t=10, cool=0.9, reannel=100
+
+ [u'kRvBUAnLXzE0Fsv07vBMMw' u'PuymBa7eyYV4RCmWjZUCGQ'
+ u'wtJjo3a8ecMvVFjrGsiuEQ']
+
